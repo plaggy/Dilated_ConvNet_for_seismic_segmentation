@@ -17,7 +17,7 @@ Training outputs are the following: txt files with train and prediction runtimes
 
 The architecture was first tested on synthetic data, 5000 training examples were available. A synthetic training example with a corresponding labeled section are shown below:
 
-<img src="readme_images/synthetic_data_example.png" width="30%" height="30%">
+<img src="readme_images/synthetic_data_example.png" width="40%" height="40%">
 
 Here are examples of predicted sections compared to true labels. The true distribution is definitely captured in predicted sections, though not perfectly.
 
@@ -28,6 +28,6 @@ Below is the test section:
 
 <img src="readme_images/dilated_test_seismic.png" width="30%" height="30%">
 
-And in the picture below there are predictions obtained with the same hyperparameters, but different weight initializations. We can see that the variance in the results is prohibitively high.
+And in the picture below there are predictions obtained with the same hyperparameters, but different weight initializations. The corresponding accuracies are 0.43 and 0.80. We can see that the variance in the results is prohibitively high.
 
-<img src="readme_images/dilated_f3_prediction.png" width="60%" height="60%">
+<img src="readme_images/dilated_f3_prediction.png" width="60%" height="40%">
