@@ -31,3 +31,5 @@ Below is the test section:
 And in the picture below there are predictions obtained with the same hyperparameters, but different weight initializations. The corresponding accuracies are 0.43 and 0.80. We can see that the variance in the results is prohibitively high.
 
 <img src="readme_images/dilated_f3_prediction.png" width="50%">
+
+In this particular case the possible reason is that there was the only training section available. Though it was not used directly as a single example, but rather smaller patches were extracted from it to form a set of training examples, it was still not enough to train the network to produce robust predictions.
