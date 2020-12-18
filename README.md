@@ -21,7 +21,7 @@ The architecture was first tested on synthetic data, 5000 training examples were
 
 Here are examples of predicted sections compared to true labels. The true distribution is definitely captured in predicted sections, though not perfectly.
 
-<img src="readme_images/dilated_synthetic_prediction.png" width="60%" height="45%">
+<img src="readme_images/dilated_synthetic_prediction.png" width="50%" height="45%">
 
 However, when it came to testing the network on real data (public F3 dataset), the predictions varied significantly, even when obtained with the same hyperparameter sets.
 Below is the test section:
